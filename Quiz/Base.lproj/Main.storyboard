@@ -41,10 +41,18 @@
                                     <action selector="showAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1en-cG-xXc"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ojk-wd-p9j">
+                                <rect key="frame" x="186" y="94" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="smm-Oo-xM7" firstAttribute="top" secondItem="iNl-M5-l2i" secondAttribute="bottom" constant="32" id="3TS-mW-pdR"/>
+                            <constraint firstItem="Ojk-wd-p9j" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5lz-Oj-QSO"/>
+                            <constraint firstItem="Ojk-wd-p9j" firstAttribute="top" secondItem="fb4-hs-MVz" secondAttribute="top" id="7Jc-km-j5Q"/>
                             <constraint firstItem="fb4-hs-MVz" firstAttribute="centerX" secondItem="J1K-og-NnP" secondAttribute="centerX" id="Efc-1f-zfi"/>
                             <constraint firstItem="smm-Oo-xM7" firstAttribute="centerX" secondItem="J1K-og-NnP" secondAttribute="centerX" id="GI5-or-mTt"/>
                             <constraint firstItem="iNl-M5-l2i" firstAttribute="top" secondItem="J1K-og-NnP" secondAttribute="bottom" constant="75" id="cqx-RM-fhy"/>
@@ -57,7 +65,8 @@
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="iNl-M5-l2i" id="kMt-jb-GJ5"/>
-                        <outlet property="questionLabel" destination="fb4-hs-MVz" id="eus-2e-Yuk"/>
+                        <outlet property="currentQuestionLabel" destination="fb4-hs-MVz" id="23l-Kh-0fJ"/>
+                        <outlet property="nextQuestionLabel" destination="Ojk-wd-p9j" id="CMf-Kc-dat"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
