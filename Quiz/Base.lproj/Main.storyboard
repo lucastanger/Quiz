@@ -53,12 +53,12 @@
                             <constraint firstItem="smm-Oo-xM7" firstAttribute="top" secondItem="iNl-M5-l2i" secondAttribute="bottom" constant="32" id="3TS-mW-pdR"/>
                             <constraint firstItem="Ojk-wd-p9j" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5lz-Oj-QSO"/>
                             <constraint firstItem="Ojk-wd-p9j" firstAttribute="top" secondItem="fb4-hs-MVz" secondAttribute="top" id="7Jc-km-j5Q"/>
-                            <constraint firstItem="fb4-hs-MVz" firstAttribute="centerX" secondItem="J1K-og-NnP" secondAttribute="centerX" id="Efc-1f-zfi"/>
-                            <constraint firstItem="smm-Oo-xM7" firstAttribute="centerX" secondItem="J1K-og-NnP" secondAttribute="centerX" id="GI5-or-mTt"/>
+                            <constraint firstItem="smm-Oo-xM7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Y7f-4K-8fG"/>
                             <constraint firstItem="iNl-M5-l2i" firstAttribute="top" secondItem="J1K-og-NnP" secondAttribute="bottom" constant="75" id="cqx-RM-fhy"/>
                             <constraint firstItem="fb4-hs-MVz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="drW-xl-esC"/>
                             <constraint firstItem="fb4-hs-MVz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oCJ-jj-qmZ"/>
-                            <constraint firstItem="iNl-M5-l2i" firstAttribute="centerX" secondItem="J1K-og-NnP" secondAttribute="centerX" id="oE6-Y5-7pP"/>
+                            <constraint firstItem="J1K-og-NnP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="sSm-rF-jeH"/>
+                            <constraint firstItem="iNl-M5-l2i" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="w3K-CV-hmE"/>
                             <constraint firstItem="J1K-og-NnP" firstAttribute="top" secondItem="fb4-hs-MVz" secondAttribute="bottom" constant="28" id="wme-aE-1vv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -66,7 +66,9 @@
                     <connections>
                         <outlet property="answerLabel" destination="iNl-M5-l2i" id="kMt-jb-GJ5"/>
                         <outlet property="currentQuestionLabel" destination="fb4-hs-MVz" id="23l-Kh-0fJ"/>
+                        <outlet property="currentQuestionLabelCenterXConstraint" destination="oCJ-jj-qmZ" id="dfd-4D-B7U"/>
                         <outlet property="nextQuestionLabel" destination="Ojk-wd-p9j" id="CMf-Kc-dat"/>
+                        <outlet property="nextQuestionLabelCenterXConstraint" destination="5lz-Oj-QSO" id="0uv-wv-Tpx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
